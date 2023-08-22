@@ -3,7 +3,7 @@ const repeatCount = parseInt(prompt("Please enter the number of repetitions : ")
 let repeatedString = "";
 
 if (!isNaN(repeatCount) && repeatCount > 0) {
-    for (let i = 0; i < inputString.length; i++) {
+    for (let i = 0; i < inputString.length ; i++) {
         for (let j = 0; j < repeatCount; j++) {
             repeatedString += inputString[i];
         }
